@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        Header .container{
+            height: 100px;
+            width: 100%;
+            /* border: 1px solid black; */
+        }
+        header .container .navbar{
+            height: inherit;
+            width: 80%;
+            /* border: 1px solid purple; */
+          margin: 0px auto;
+          display: flex;
+          justify-content: space-between;
+        }
+        header .container .navbar .logo{
+            height: inherit;
+            width: 15%;
+            /* border: 1px solid yellowgreen; */
+        }
+        header .container .navbar .nav{
+            height: inherit;
+            width: 75%;
+            /* border: 1px solid orange; */
+        }
+        header .container .navbar .logo h2{
+            /* background-color:aqua; */
+            position: relative;
+            top: 15px;
+            text-align: center;
+        }
+        header .container .navbar .nav ul{
+            /* background-color: brown; */
+            position: relative;
+            top: 15px;
+            text-align:center ;
+               padding: 10px;
+        }
+        header .container .navbar .nav ul li{
+            /* background-color: burlywood; */
+            display: inline;
+            padding: 10px;
+            margin-left: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header start -->
+     <Header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h2>PlantNest</h2>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Gallery</li>
+                        <li>Policy</li>
+                        <li>content</li>
+                        <li>faq</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </Header>
+    <!-- Header end -->
+</body>
+</html>
