@@ -11,12 +11,12 @@
           Header .container{
             height: 100px;
             width: 100%;
-            /* border: 1px solid black; */
+            border: 1px solid black;
         }
         header .container .navbar{
             height: inherit;
             width: 90%;
-            /* border: 1px solid purple; */
+            border: 1px solid purple;
           margin: 0px auto;
           display: flex;
           justify-content: space-between;
@@ -24,7 +24,7 @@
         header .container .navbar .logo{
             height: inherit;
             width: 20%;
-            /* border: 1px solid yellowgreen; */
+            border: 1px solid yellowgreen;
         }
         header .container .navbar .nav{
             height: inherit;
@@ -50,6 +50,11 @@
             padding: 10px;
             margin-left: 15px;
         }
+        .dropdown{
+            position: absolute;
+            background-color: black;
+            
+        }
         
          
          
@@ -66,7 +71,13 @@
                 </div>
                 <div class="nav">
                      <ul>
-                        <li>Old Cars</li>
+                        <li id="Used cars">Used Cars
+                            <i class="fr fr-caret-down"></i>
+                         <div class="dropdown">
+                         <div class="item">Find car</div>
+                         <div class="item">Search car</div>
+                         </div>
+                        </li>
                         <li>New Cars</li>
                         <li>Bikes</li>
                         <li>Auto Store</li>
